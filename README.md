@@ -1,1 +1,1 @@
-# Random-Fact-Generator-Applicaion
+# Random Fact Generator Applicaion
