@@ -1,0 +1,27 @@
+{
+  "name": "random-fact-generator-applicaion",
+  "version": "1.0.0",
+  "description": "random fact generator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krsilveira/Random-Fact-Generator-Applicaion.git"
+  },
+  "keywords": [
+    "wiki",
+    "facts"
+  ],
+  "author": "c-rams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krsilveira/Random-Fact-Generator-Applicaion/issues"
+  },
+  "homepage": "https://github.com/krsilveira/Random-Fact-Generator-Applicaion#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1"
+  }
+}
