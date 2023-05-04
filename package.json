@@ -22,6 +22,7 @@
   "homepage": "https://github.com/krsilveira/Random-Fact-Generator-Applicaion#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mysql2": "^3.2.4",
     "sequelize": "^6.31.1"
   }
 }
