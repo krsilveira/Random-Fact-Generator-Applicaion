@@ -4,6 +4,8 @@
 <head>
 	<title>Random Facts</title>
 	<link rel="stylesheet" href="app/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="app/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
@@ -20,11 +22,11 @@
 			<section id="random-fact">
 				<h2>Did you know?</h2>
 				<p>random fact text will go here</p>
-				<button id="fb">FB Share</button>
-				<button id="twitter">Twitter</button>
-			</section>
-			<section id="main-content">
-				<!-- Main content area code here -->
+				<div class="socials">
+				<button id="fb"><a href="#" class="fa fa-facebook"></a></button>
+				<button id="twitter"><a href="#" class="fa fa-twitter"></a></button>
+				</div>
+
 			</section>
 			<div id="login-signup">
 				<button id="login-btn">Login</button>
@@ -32,6 +34,11 @@
 				<button id="signup-btn">Sign Up</button>
 			</div>
 		</div>
+
+		<section id="main-content">
+			<!-- Main content area code here -->
+		</section>
+
 		<section id="categories">
 			<h2>Categories</h2>
 			<div id="category-cards">
