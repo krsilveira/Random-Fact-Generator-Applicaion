@@ -10,23 +10,33 @@ body {
 }
 
 /* Header styles */
+/* Header styles */
 header {
+  border: 20px rgb(155, 38, 38);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #ee4d38;
-  color: #fff;
+  background-color: #ffffff;
+  color: #282f8d;
   text-align: center;
-  align-content: center;
 }
 
+
+
+
 /* Logo styles */
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
+#logo {
+  width: 100px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain the aspect ratio */
+  background: none; /* Remove the background */
+}
+
+h1{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 /* Main content styles */
@@ -42,7 +52,7 @@ main {
 
 #parenth {
 
-  color: brown;
+  color: rgb(168, 31, 31);
 
 }
 
@@ -54,7 +64,7 @@ main {
 
 /* Fact of the day styles */
 #random-fact {
-  background-color: #f0f0f0;
+  background-color: #e2e2ba;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -318,8 +328,7 @@ footer p {
 
 /* Footer styles */
 footer {
-  background-color: #f0f0f0;
-  color: #666;
+  
   padding: 20px;
   text-align: center;
 }
