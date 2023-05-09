@@ -1,7 +1,7 @@
  "https://www.facebook.com/sharer/sharer.php?u="; 
 
 function shareOnFacebook(){
-  const navUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + 'https://github.com/knoldus/angular-facebook-twitter.git';
+  const navUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + '';
   window.open(navUrl , '_blank');
 }
 
@@ -14,7 +14,7 @@ fb.addEventListener('click', shareOnFacebook);
 function shareOnTwitter() {
   const navUrl =
     'https://twitter.com/intent/tweet?text=' +
-    'https://github.com/knoldus/angular-facebook-twitter.git';
+    '';
   window.open(navUrl, '_blank');
 }
 
