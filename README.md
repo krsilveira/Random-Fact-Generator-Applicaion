@@ -6,7 +6,7 @@ Create a profile and recieve your Daily Dose of interesting yet, totally random 
 
 # Usage
 
-When a user creates an account, they are able to recieve random facts. They are also able to favorite/save a fact and share to Facebook or Twitter.
+When a user creates an account, they are able to receive random facts. They are also able to favorite/save a fact and share to Facebook or Twitter.
 
 
 
