@@ -1,6 +1,6 @@
-# Daily Dose (of random historical facts)
+# Daily Dose Facts
 
-Tired of talking about the same boring topics at parties? Feel like you know everything there is to know sports? 
+Tired of talking about the same boring topics at parties? Feel like you know everything there is to know? 
 Or maybe you just want to impress people with your wealth of knowledge. Daily Dose can help with that. 
 Create a profile and recieve your Daily Dose of interesting yet, totally random facts. 
 
