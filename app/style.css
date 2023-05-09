@@ -62,6 +62,23 @@ main {
   justify-content: space-around;
 }
 
+.buttons{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: space-around;
+}
+
+#generate-btn{
+  background-color: #0080ff5a;
+  color: #8d2222;
+}
+
+#like{
+  background: none;
+
+}
+
 /* Fact of the day styles */
 #random-fact {
   background-color: #e2e2ba;
@@ -261,56 +278,33 @@ footer p {
 
 }
 
-/* Category cards styles */
-#categories {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: flex-start;
-  margin-top: 40px;
-}
 
-#category-cards {
-  background-color: #f0f0f0;
-  padding: 20px;
-  margin-bottom: 20px;
+/* Login/sign up button styles */
+
+#login-signup{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
 }
 
-.category-card {
-  width: 22%;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  text-align: center;
+#socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-
-.category-card h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.category-card p {
-  margin: 0;
-}
-
-/* Login/sign up button styles */
 .buttons {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 10px;
+  padding: 10px;
   background-color: #f0f0f0;
 }
 
 .buttons button {
   padding: 10px 20px;
-  background-color: #1E90FF;
+  background-color: #f5f6f700;
   color: #fff;
   border: none;
   border-radius: 5px;
