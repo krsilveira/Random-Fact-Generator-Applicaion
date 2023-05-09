@@ -5,7 +5,6 @@
 	<title>Random Facts</title>
 	<link rel="stylesheet" href="app/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="app/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
@@ -21,23 +20,25 @@
 		<div id="landing-card">
 			<section id="random-fact">
 				<h2>Did you know?</h2>
-				<p id="fact-text">random fact text will go here</p>
-				<div id="prev-next">
-				<button>prev</button>
-				<button class="like"><img id="heart" src="app/like button .png" alt="like"></button>
-				<button>next</button>	
+				<p id="fact"></p>
+				<div class="buttons">
+					<button id="generate-btn">Generate</button>
+					<button id="like" style="padding-bottom: .5px;"><img id="heart" src="app/like button .png"
+							alt="like"></button>
+					<div id="socials">
+						<button id="fb"><a href="#" class="fa fa-facebook"></a></button>
+						<button id="twitter"><a href="#" class="fa fa-twitter"></a></button>
+					</div>
 				</div>
-				<div class="socials">
-				<button id="fb"><a href="#" class="fa fa-facebook"></a></button>
-				<button id="twitter"><a href="#" class="fa fa-twitter"></a></button>
-				</div>
+		</div>
 
-			</section>
-			<div id="login-signup">
-				<button id="login-btn">Login</button>
-				<p>or</p>
-				<button id="signup-btn">Sign Up</button>
-			</div>
+
+		</section>
+		<div id="login-signup">
+			<button id="login-btn">Login</button>
+			<p style="padding-top: 0px;padding-right: 5px; padding-left: 5px;">or</p>
+			<button id="signup-btn">Sign Up</button>
+		</div>
 		</div>
 
 		<section id="main-content">
@@ -63,11 +64,12 @@
 		</section> -->
 	</main>
 	<footer>
-		
+
 	</footer>
 </body>
 
 <script src="app/app.js"></script>
 <script src="app/share.js"></script>
+<script src="app/script.js"></script>
 
 </html>
