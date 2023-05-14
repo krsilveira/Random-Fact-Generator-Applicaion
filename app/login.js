@@ -2,6 +2,21 @@ const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 
+const mysql = require('mysql');
+
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'crams',
+  password: 'stinky',
+  database: 'randomfact',
+});
+
+connection.connect((err) => {
+  if (err) throw err;
+  console.log('Connected to MySQL database');
+});
+
+
 
 
 loginButton.addEventListener("click", (e) => {
@@ -15,4 +30,6 @@ loginButton.addEventListener("click", (e) => {
     } else {
         loginErrorMsg.style.opacity = 1;
     }
+
+   
 })
