@@ -1,57 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <header>Get your Daily Dose Here!</header>
-    <title>Daily Dose of Facts</title>
-    <link rel="stylesheet" href="app/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./login.css">
-
-    <link rel="stylesheet" href="./signup.css">
-
+  <link rel="stylesheet" href="signup.css">
+  <title>Daily Dose of Facts</title>
 </head>
-
 <body>
-    <!-- partial:index.partial.html -->
-    <div id="login-form-wrap">
-        <h2>Sign Up</h2>
-        <form id="login-form">
-            <p>
-                <input type="text" id="username" name="username" placeholder="Username" required><i
-                    class="validation"><span></span><span></span></i>
-            </p>
-            <p>
-                <input type="email" id="email" name="email" placeholder="Email Address" required><i
-                    class="validation"><span></span><span></span></i>
-            </p>
-            <p>
-            <p>
-                <input type="password" id="password" name="password" placeholder="Password" required><i
-                    class="validation"><span></span><span></span></i>
-            </p>
-            <p>
-                <input type="cpassword" id="cpassword" name="password" placeholder="Confirm Password" required><i
-                    class="validation"><span></span><span></span></i>
-            </p>
-            <p>
-                <input type="submit" id="login" value="Submit" style="
-                    padding-bottom: 20px;
-                    margin-bottom: 2opx;
-                    margin-bottom: 20px;
-                    margin-top: 20px;
-                ">
-                </p>
-        </form>
-       
-    </div><!--login-form-wrap-->
-    <!-- partial -->
-
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <div class="signup">
+                <form action="signup-form">
+                    <h2>Sign-up</h2>
+                    <div class="inputbox">
+                        <input type="username" placeholder=""required>
+                        <label for="">Username</label>
+                        <input:focus ~ label, input:not(:placeholder-shown) ~ label></input:focus>
+                      </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" placeholder=""required>
+                        <label for="">Email</label>
+                        <input:focus ~ label, input:not(:placeholder-shown) ~ label></input:focus>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" placeholder=""required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me 
+                      
+                    </div>
+                    <button>Sign up</button>
+                    <div class="register">
+                        <p>Already have an account? <a href="app/login.html">Login Here</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>

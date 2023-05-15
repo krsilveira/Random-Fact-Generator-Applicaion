@@ -7,6 +7,10 @@ body {
   padding: 0;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 300;
+
+  background: url('glasses.jpeg')no-repeat fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Header styles */
@@ -19,8 +23,11 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #ffffff;
-  color: #282f8d;
+  color: #ffffff;
   text-align: center;
+
+  background: url('surface.jpeg');
+  background-size: 1100px;
 }
 
 
@@ -41,9 +48,17 @@ h1{
 
 /* Main content styles */
 main {
+  position: relative;
+  width: 550px;
+  height: 350px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  align-items: center;
+  padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +67,7 @@ main {
 
 #parenth {
 
-  color: rgb(168, 31, 31);
+  color: rgb(245, 3, 3);
 
 }
 
@@ -70,8 +85,8 @@ justify-content: space-around;
 }
 
 #generate-btn{
-  background-color: #0080ff5a;
-  color: #8d2222;
+  background-color: #ffffff;
+  color: #9e1111;
 }
 
 #like{
@@ -284,7 +299,7 @@ footer p {
 #login-signup{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
 }
 
