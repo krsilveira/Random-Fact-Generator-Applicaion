@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 300;
+  background-color: #c7b69c;
 }
 
 /* Header styles */
@@ -18,8 +19,8 @@ header {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #ffffff;
-  color: #282f8d;
+  background-color: #ccc1ab;
+  color: #000000;
   text-align: center;
 }
 
