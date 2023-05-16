@@ -23,6 +23,7 @@ h2{
     color: #000000;
     text-align: center;
 }
+
 .input-box{
   position: relative;
   margin: 30px 0;
@@ -84,13 +85,13 @@ top: -5px;
     justify-content: space-between;  
 }
 
-.forget label input{
-    margin-right: 4px;
+
     
     h2 {
       font-weight: 700;
       text-align: center;
     }
+  
     
     p {
       position: relative;
@@ -101,8 +102,7 @@ top: -5px;
     
       background-color: #0080ff5a;
       color: #8d2222;
-    
-  
+      font-family: 'Roboto', sans-serif;
   
     }
     
